@@ -1,9 +1,9 @@
 node default {
   file {'/root/README':
-    ensure => file,
+    ensure  => file,
     content => 'virender kamboj'
-    owner => virenderk
-    group => virenderk
-    mod => 400
+    owner   => 'virenderk',
+    group   => 'virenderk',
+    mod     => '400',
   }
 }
